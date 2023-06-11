@@ -22,3 +22,5 @@ zstyle ':completion::complete:*' gain-privileges 1
 zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' \
   '+l:|?=** r:|?=**'
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+
+PS1='%~ > '
