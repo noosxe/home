@@ -1,0 +1,5 @@
+[submodule "/Users/noosxe/.zsh/.antidote"]
+	path = /Users/noosxe/.zsh/.antidote
+	url = https://github.com/mattmc3/antidote.git
+	depth = 1
+	

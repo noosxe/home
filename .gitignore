@@ -1,0 +1,6 @@
+*
+
+!.gitignore
+!.zshenv
+!/.zsh/
+!/.zsh/**/*

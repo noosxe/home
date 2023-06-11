@@ -1,0 +1,1 @@
+alias gitl="git log --oneline --graph"
