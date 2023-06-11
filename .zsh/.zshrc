@@ -14,10 +14,11 @@ fi
 
 source $zsh_plugins
 
-// Completion config
+# Completion config
 autoload -Uz compinit
 compinit
 zstyle ':completion:*' menu select
 zstyle ':completion::complete:*' gain-privileges 1
 zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' \
   '+l:|?=** r:|?=**'
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}

@@ -1,3 +1,10 @@
+aubreypwd/zsh-plugin-require
+aubreypwd/zsh-plugin-fd
+chitoku-k/fzf-zsh-completions
+Aloxaf/fzf-tab
 zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
 zdharma-continuum/fast-syntax-highlighting
+MichaelAquilina/zsh-auto-notify
+aubreypwd/zsh-plugin-download
+joshskidmore/zsh-fzf-history-search
