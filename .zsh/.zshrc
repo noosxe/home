@@ -24,4 +24,6 @@ zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower
   '+l:|?=** r:|?=**'
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
+autoload -U colors && colors
+
 PS1='%~ > '

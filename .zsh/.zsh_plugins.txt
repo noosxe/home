@@ -1,3 +1,5 @@
+ptavares/zsh-exa
+DarrinTisdale/zsh-aliases-exa
 aubreypwd/zsh-plugin-require
 aubreypwd/zsh-plugin-fd
 chitoku-k/fzf-zsh-completions
