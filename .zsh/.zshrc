@@ -26,4 +26,4 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
 autoload -U colors && colors
 
-PS1='%~ > '
+PS1="%~ %{$fg[magenta]%}❯ "
