@@ -1,3 +1,4 @@
+[[ -d $HOME/bin ]] && export PATH="$PATH:$HOME/bin"
 [[ -f $ZDOTDIR/aliases.zsh ]] && source $ZDOTDIR/aliases.zsh
 [[ -f $ZDOTDIR/aliases_local.zsh ]] && source $ZDOTDIR/aliases_local.zsh
 [[ -f $ZDOTDIR/bindings.zsh ]] && source $ZDOTDIR/bindings.zsh
