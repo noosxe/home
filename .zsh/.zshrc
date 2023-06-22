@@ -27,4 +27,5 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
 autoload -U colors && colors
 
-PS1="%~ %{$fg[magenta]%}❯ "
+setopt prompt_subst
+PS1='$(shrink_path -f) %{$fg[magenta]%}❯ '
