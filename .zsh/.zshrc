@@ -14,6 +14,8 @@ if [[ ! $zsh_plugins -nt ${zsh_plugins:r}.txt ]]; then
   (antidote bundle <${zsh_plugins:r}.txt >|$zsh_plugins)
 fi
 
+ZSH_AUTOSUGGEST_STRATEGY=(completion)
+
 source $zsh_plugins
 
 # Completion config
