@@ -1,5 +1,4 @@
-ptavares/zsh-exa
-DarrinTisdale/zsh-aliases-exa
+z-shell/zsh-eza
 ohmyzsh/ohmyzsh path:plugins/shrink-path
 aubreypwd/zsh-plugin-require
 aubreypwd/zsh-plugin-fd
